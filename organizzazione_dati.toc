@@ -1,0 +1,33 @@
+\contentsline {chapter}{\numberline {1}Memory hierarchy}{3}{chapter.1}%
+\contentsline {paragraph}{Competitive analysis of the strategies}{4}{section*.3}%
+\contentsline {section}{\numberline {1.1}Computational models}{4}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Sorting on External Memories}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}M/B MergeSort}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Compare with 2-MergeSort}{9}{subsection.2.1.1}%
+\contentsline {chapter}{\numberline {3}Searching on External Memories}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Problem description}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Structures for index representation}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Sequential method}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Grouped method}{12}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Active pages method}{12}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}B-Trees}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Searching on B-Trees}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Insertion on B-Trees}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Deletion from B-Trees}{16}{section.4.3}%
+\contentsline {chapter}{\numberline {5}B+ Trees}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Searching on B+ Trees}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Insertion on B+ Trees}{20}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Deletion on B+ Trees}{20}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Range query on B+ Trees}{21}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Hash tables}{22}{chapter.6}%
+\contentsline {subsubsection}{Searching in a hash table}{22}{section*.6}%
+\contentsline {subsubsection}{Hash function}{22}{section*.7}%
+\contentsline {section}{\numberline {6.1}Collision resolution methods}{23}{section.6.1}%
+\contentsline {subsubsection}{Separate chaining methods}{23}{section*.8}%
+\contentsline {subsubsection}{Joined chaining methods}{23}{section*.10}%
+\contentsline {subsubsection}{Open addressing method}{24}{section*.12}%
+\contentsline {section}{\numberline {6.2}Hash in external memory}{25}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Static hashing}{25}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Dynamic hashing}{26}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Extendible hashing, methods with directory}{27}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Virtual hashing}{28}{subsection.6.2.4}%
