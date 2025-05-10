@@ -992,5 +992,23 @@ It's also important to note that the directory is an array of links. If it all f
 \section*{Methods without directory}
 As we saw a disadvantage of the extendible hashing method is that the directory can be very large and if it doesn't fit in RAM a second I/O operation is needed to access it. To overcome this problem, we can use a method that doesn't require a directory. Two possible techniques to achieve this are \textbf{virtual hashing} and \textbf{linear hashing}.
 \subsection{Virtual hashing}
+Virtual hashing is based on the following theorem.
+\begin{teo}
+    Given an integer $k$ and an integer divisor $d$, if $k \bmod d = r$, then
+    \begin{equation}
+        k \bmod 2d = r \quad \text{or} \quad r + d.
+    \end{equation}
+\end{teo}
+\noindent
+Let \(h: K \to \{0,1,2,\dots,m-1\}\) with \(m>>\). We define
+\begin{equation}
+    h_0 : \mathbb{N} \to \{0,1,2,\dots,d-1\}, \; h_0(k) = h(k) \mod d
+\end{equation}
+where \(d \in \mathbb{P}\) is a small prime number. Virtual hashing works as follows.
 
+Initially keys are inserted in \(d\) pages of the archive using the function \(h_0(k)\). When a page \(p\) overflows, a re-hashing of the keys is performed using the function
+\begin{equation}
+    h_1(k) = h(k) \mod 2d
+\end{equation}
+wich distributes the keys between the page \(p\) and the page \(p+d\). The page \(p+d\) is created only if it is needed. In this way the archive doubles its number of pages from \(d\) to \(2d\).
 \end{document}
